@@ -11,16 +11,6 @@ func takeObjCTypes( constant : Constants, error : ErrorDomain ) {
 
 func useObjectiveCApi() {
 
-    //Import Objective-C Constants as Swift Types
-    //https://github.com/apple/swift-evolution/blob/master/proposals/0033-import-objc-constants.md
-    takeObjCTypes( constant: .one, error: .POSIXErrorDomain )
-
-    //Navigation from .attributes and .state, completion + translation
-    //for NS_SWIFT_NAME, CF_SWIFT_NAME, swift_name (Proposal as example)
-    let p = Proposal()
-    print("p.name = \(p.name)") // pv
-    p.attributes = .optional
-    p.state = .implemented
 }
 
 //Referencing Objective-C key-paths

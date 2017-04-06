@@ -9,14 +9,6 @@ import Foundation
 class Animal {}
 class 🐠 {}
 
-// remove
-func 🔥(_ animals: [Animal]) -> Any {
-    return animals
-}
-
-func 🔥(_ v: 🐠) -> Any {
-    return v
-}
 
 
 // MARK: usage: ----
