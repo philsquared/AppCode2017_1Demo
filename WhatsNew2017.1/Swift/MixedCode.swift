@@ -10,11 +10,10 @@ func takeObjCTypes( constant : Constants, error : ErrorDomain ) {
 }
 
 func useObjectiveCApi() {
-
+    // TODO: write calls that use Objective-C API
 }
 
-//Referencing Objective-C key-paths
-//https://github.com/apple/swift-evolution/blob/master/proposals/0062-objc-keypaths.md
+
 func dynamicPerson() {
     class Person: NSObject {
         dynamic var firstName : String

@@ -23,4 +23,4 @@ func 😃() {
     print("cooked = \(🍔), \(🍣)")
 }
 
-//TODO: implement other types we can cook
+// TODO: Demonstrate TODOs
