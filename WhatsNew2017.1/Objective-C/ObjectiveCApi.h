@@ -26,8 +26,8 @@ typedef NS_OPTIONS(NSInteger, Attributes) {
     AttributesRequired, AttributesOptional
 };
 
-__attribute__ ((swift_name("Proposal")))
-@interface ObjcProposal : NSObject
+__attribute__ ((swift_name("BridgedClass")))
+@interface ObjcClass : NSObject
 NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic, assign) State objcState NS_SWIFT_NAME(state) ;
 @property(nonatomic, assign) Attributes objcAttributes CF_SWIFT_NAME(attributes);

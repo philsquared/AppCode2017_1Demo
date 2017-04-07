@@ -5,7 +5,7 @@
 
 #import "ObjectiveCApi.h"
 
-@implementation ObjcProposal
+@implementation ObjcClass
 - (NSColor *)colorWithAlphaComponent:(CGFloat *)value {
     return nil;
 }
